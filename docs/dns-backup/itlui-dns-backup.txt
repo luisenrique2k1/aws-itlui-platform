@@ -1,0 +1,107 @@
+===== A =====
+
+; <<>> DiG 9.10.6 <<>> itlui.com A +noall +answer
+;; global options: +cmd
+itlui.com.		2070	IN	A	217.160.0.181
+===== AAAA =====
+
+; <<>> DiG 9.10.6 <<>> itlui.com AAAA +noall +answer
+;; global options: +cmd
+itlui.com.		2070	IN	AAAA	2001:8d8:100f:f000::200
+===== MX =====
+
+; <<>> DiG 9.10.6 <<>> itlui.com MX +noall +answer
+;; global options: +cmd
+===== TXT =====
+
+; <<>> DiG 9.10.6 <<>> itlui.com TXT +noall +answer
+;; global options: +cmd
+===== NS =====
+
+; <<>> DiG 9.10.6 <<>> itlui.com NS +noall +answer
+;; global options: +cmd
+itlui.com.		71995	IN	NS	ns.ui-global-dns.de.
+itlui.com.		71995	IN	NS	ns.ui-global-dns.biz.
+itlui.com.		71995	IN	NS	ns.ui-global-dns.com.
+itlui.com.		71995	IN	NS	ns.ui-global-dns.org.
+===== SOA =====
+
+; <<>> DiG 9.10.6 <<>> itlui.com SOA +noall +answer
+;; global options: +cmd
+itlui.com.		86400	IN	SOA	ns.ui-global-dns.de. hostmaster.1und1.com. 2017060147 28800 7200 604800 600
+===== CAA =====
+
+; <<>> DiG 9.10.6 <<>> itlui.com CAA +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> www.itlui.com A +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> www.itlui.com AAAA +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> www.itlui.com CNAME +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> www.itlui.com TXT +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> autodiscover.itlui.com A +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> autodiscover.itlui.com AAAA +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> autodiscover.itlui.com CNAME +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> autodiscover.itlui.com TXT +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> enterpriseenrollment.itlui.com A +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> enterpriseenrollment.itlui.com AAAA +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> enterpriseenrollment.itlui.com CNAME +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> enterpriseenrollment.itlui.com TXT +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> enterpriseregistration.itlui.com A +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> enterpriseregistration.itlui.com AAAA +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> enterpriseregistration.itlui.com CNAME +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> enterpriseregistration.itlui.com TXT +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> _domainconnect.itlui.com A +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> _domainconnect.itlui.com AAAA +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> _domainconnect.itlui.com CNAME +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> _domainconnect.itlui.com TXT +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> 67098393.itlui.com A +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> 67098393.itlui.com AAAA +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> 67098393.itlui.com CNAME +noall +answer
+;; global options: +cmd
+
+; <<>> DiG 9.10.6 <<>> 67098393.itlui.com TXT +noall +answer
+;; global options: +cmd
