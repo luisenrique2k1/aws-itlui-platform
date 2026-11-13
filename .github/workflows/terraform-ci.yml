@@ -14,8 +14,8 @@ permissions:
 
 jobs:
   terraform-check:
-    name: Terraform Format and Validate
-    runs-on: ubuntu-latest
+    name: Terraform Format, Validate and Security
+    runs-on: ubuntu-24.04
 
     defaults:
       run:
@@ -39,3 +39,11 @@ jobs:
       - name: Validate Terraform configuration
         run: terraform validate -no-color
 
+      - name: Scan Terraform security
+        uses: aquasecurity/trivy-action@0.33.1
+        with:
+          scan-type: config
+          scan-ref: terraform/environments/dev
+          severity: HIGH,CRITICAL
+          exit-code: "1"
+          format: table
