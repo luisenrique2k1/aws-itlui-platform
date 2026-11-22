@@ -1,0 +1,31 @@
+
+name: CloudFormation CI
+
+on:
+  pull_request:
+    paths:
+      - "cloudformation/**"
+      - ".github/workflows/cloudformation.yml"
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate CloudFormation Template
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install CloudFormation Linter
+        run: python -m pip install cfn-lint
+
+      - name: Validate CloudFormation Template
+        run: |
+          cfn-lint \
+            cloudformation/templates/s3-lab.yaml \
+            --regions eu-north-1
